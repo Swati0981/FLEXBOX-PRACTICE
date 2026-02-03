@@ -1,0 +1,103 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:#9D0208;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+   
+   /* margin: 15px;
+    margin-top: 25px;
+    padding: 15px;*/
+}
+ 
+.box{
+    height: 24vh;
+    width: 90vh;
+    background-color: #F48C06;
+    padding:10px;
+    margin:10px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+ 
+.box1{
+    display: flex;
+    align-items: flex-end;
+}
+ 
+.box2{
+    min-height: 120px;
+    display:flex;
+    justify-content:center;
+    align-items: stretch;
+}
+ 
+.box3{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+ 
+.box4{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+ 
+ .c{
+    display: flex;
+    align-self: flex-end;
+}
+ 
+ 
+.box5{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tall{
+    height: 120px;
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+ 
+}
+ 
+ 
+/*.one{
+    display: flex;
+    flex-direction: column;
+    align-content:stretch;
+}*/
+ 
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 0.5;
+}
+ 
+.item{
+    background: #6A040F;
+    width: 80px;
+    min-height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+ 
+}
